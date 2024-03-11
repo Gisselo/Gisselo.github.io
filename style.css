@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/*Barra inicio*/
+.navbar-nav .nav-link {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.bg-color {
+    background-color: #97c2b7;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/*INICIO*/
+
+.col {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Anta", sans-serif;
+}
+
+.bg-colore {
+    background-color: #a19f1b;
+}
+
+.portada img {
+    margin-right: 20px;
+}
+
+/*SOBRE MI*/
+
+.presentacion .row {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro de la fila */
+}
+
+.presentacion .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra horizontal y verticalmente el contenido */
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+}
+
+.presentacion p,h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-left: 50px;
+}
+
+
+
+
+
+.p {
+    color: #960c0c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Carpetas proyecto*/
+.btn-img {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+    transition: transform 0.3s ease;
+}
+
+.btn-img:hover {
+    transform: scale(1.2);
+}
+
+
+/* Estilos para el tema claro */
+body.light-theme {
+    background-color: #f2f2f2;
+    /* Color de fondo claro */
+    color: #333;
+    /* Color del texto en el tema claro */
+}
+
+/* Estilos para el tema oscuro */
+body.dark-theme {
+    background-color: #333;
+    /* Color de fondo oscuro */
+    color: #f2f2f2;
+    /* Color del texto en el tema oscuro */
+}
