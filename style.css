@@ -71,8 +71,8 @@
     background-color: transparent;
     border: none;
     padding: 0;
-    width: 150px; /* Ancho del botón */
-    height: 150px; /* Altura del botón */
+    width: 200px; /* Ancho del botón */
+    height: 250px; /* Altura del botón */
 
 
     transition: transform 0.3s ease;
