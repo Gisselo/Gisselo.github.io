@@ -67,20 +67,18 @@
 }
 
 /*Carpetas proyecto*/
-.btn-img {
+.btn-img.btn.btn-outline.btn-lg {
     background-color: transparent;
     border: none;
     padding: 0;
-    width: 180px; /* Ancho del botón */
-    height: 180px; /* Altura del botón */
 
-
-    transition: transform 0.3s ease;
+    transition: transform 0.10s ease;
 }
 
 .btn-img:hover {
-    transform: scale(2);
+    transform: scale(1.2);
 }
+
 
 
 /* Estilos para el tema claro */
