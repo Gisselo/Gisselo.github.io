@@ -12,6 +12,7 @@
     background-color: #97c2b7;
 }
 
+
 .logo {
     width: 100px;
     height: auto;
@@ -20,16 +21,12 @@
 /*INICIO*/
 
 .col {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     font-family: "Anta", sans-serif;
-}
-
-.bg-colore {
-    background-color: #a19f1b;
 }
 
 .portada img {
@@ -40,20 +37,21 @@
 
 .presentacion .row {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos dentro de la fila */
+    align-items: center;
 }
 
 .presentacion .col {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centra horizontal y verticalmente el contenido */
+    justify-content: center;
     height: 100vh;
     font-family: "Anta", sans-serif;
 }
 
-.presentacion p,h1 {
-    text-align: center; /* Centra el texto horizontalmente */
+.presentacion p,
+h1 {
+    text-align: center;
     margin-left: 50px;
 }
 
@@ -80,19 +78,22 @@
 }
 
 
-
-/* Estilos para el tema claro */
-body.light-theme {
-    background-color: #f2f2f2;
-    /* Color de fondo claro */
-    color: #333;
-    /* Color del texto en el tema claro */
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
 }
 
-/* Estilos para el tema oscuro */
-body.dark-theme {
-    background-color: #333;
-    /* Color de fondo oscuro */
-    color: #f2f2f2;
-    /* Color del texto en el tema oscuro */
+#theme-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
